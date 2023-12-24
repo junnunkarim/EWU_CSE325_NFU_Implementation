@@ -1,0 +1,1002 @@
+number of pages: 16
+number of page frames: 8
+
+clock_tick 0
+replace count 0
+Inserted page 0 in frame 0
+Inserted page 3 in frame 1
+Inserted page 4 in frame 2
+Inserted page 7 in frame 3
+Inserted page 8 in frame 4
+Inserted page 10 in frame 5
+page table: [1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0]
+frame containing pages: [0, 3, 4, 7, 8, 10, -1, -1]
+
+clock_tick 1
+replace count 6
+page table: [0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1]
+frame containing pages: [0, 3, 4, 7, 8, 10, -1, -1]
+
+clock_tick 2
+replace count 6
+Inserted page 11 in frame 6
+Inserted page 13 in frame 7
+Removed page 0 and inserted page 15 in frame 0
+page table: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1]
+frame containing pages: [15, 3, 4, 7, 8, 10, 11, 13]
+
+clock_tick 3
+replace count 9
+Removed page 7 and inserted page 4 in frame 3
+Removed page 8 and inserted page 15 in frame 4
+page table: [1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1]
+frame containing pages: [15, 3, 4, 4, 15, 10, 11, 13]
+
+clock_tick 4
+replace count 11
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+frame containing pages: [15, 3, 4, 4, 15, 10, 11, 13]
+
+clock_tick 5
+replace count 11
+page table: [0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+frame containing pages: [15, 3, 4, 4, 15, 10, 11, 13]
+
+clock_tick 6
+replace count 11
+Removed page 15 and inserted page 4 in frame 0
+Removed page 4 and inserted page 15 in frame 0
+page table: [1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1]
+frame containing pages: [15, 3, 4, 4, 15, 10, 11, 13]
+
+clock_tick 7
+replace count 13
+Removed page 15 and inserted page 3 in frame 0
+Removed page 4 and inserted page 6 in frame 3
+Removed page 3 and inserted page 15 in frame 0
+page table: [0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+frame containing pages: [15, 3, 4, 6, 15, 10, 11, 13]
+
+clock_tick 8
+replace count 16
+Removed page 11 and inserted page 6 in frame 6
+Removed page 6 and inserted page 15 in frame 3
+page table: [0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1]
+frame containing pages: [15, 3, 4, 15, 15, 10, 6, 13]
+
+clock_tick 9
+replace count 18
+Removed page 6 and inserted page 2 in frame 6
+page table: [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [15, 3, 4, 15, 15, 10, 2, 13]
+
+clock_tick 10
+replace count 19
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [15, 3, 4, 15, 15, 10, 2, 13]
+
+clock_tick 11
+replace count 19
+page table: [1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [15, 3, 4, 15, 15, 10, 2, 13]
+
+clock_tick 12
+replace count 19
+Removed page 15 and inserted page 0 in frame 0
+Removed page 0 and inserted page 1 in frame 0
+page table: [1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0]
+frame containing pages: [1, 3, 4, 15, 15, 10, 2, 13]
+
+clock_tick 13
+replace count 21
+page table: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [1, 3, 4, 15, 15, 10, 2, 13]
+
+clock_tick 14
+replace count 21
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+frame containing pages: [1, 3, 4, 15, 15, 10, 2, 13]
+
+clock_tick 15
+replace count 21
+page table: [0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0]
+frame containing pages: [1, 3, 4, 15, 15, 10, 2, 13]
+
+clock_tick 16
+replace count 21
+Removed page 3 and inserted page 6 in frame 1
+Removed page 1 and inserted page 11 in frame 0
+Removed page 4 and inserted page 13 in frame 2
+page table: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0]
+frame containing pages: [11, 6, 13, 15, 15, 10, 2, 13]
+
+clock_tick 17
+replace count 24
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [11, 6, 13, 15, 15, 10, 2, 13]
+
+clock_tick 18
+replace count 24
+page table: [0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1]
+frame containing pages: [11, 6, 13, 15, 15, 10, 2, 13]
+
+clock_tick 19
+replace count 24
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [11, 6, 13, 15, 15, 10, 2, 13]
+
+clock_tick 20
+replace count 24
+page table: [0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0]
+frame containing pages: [11, 6, 13, 15, 15, 10, 2, 13]
+
+clock_tick 21
+replace count 24
+Removed page 2 and inserted page 5 in frame 6
+Removed page 10 and inserted page 14 in frame 5
+page table: [0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0]
+frame containing pages: [11, 6, 13, 15, 15, 14, 5, 13]
+
+clock_tick 22
+replace count 26
+Removed page 5 and inserted page 6 in frame 6
+Removed page 6 and inserted page 11 in frame 6
+page table: [0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+frame containing pages: [11, 6, 13, 15, 15, 14, 11, 13]
+
+clock_tick 23
+replace count 28
+Removed page 11 and inserted page 4 in frame 0
+Removed page 15 and inserted page 6 in frame 4
+Removed page 4 and inserted page 11 in frame 0
+page table: [0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1]
+frame containing pages: [11, 6, 13, 15, 6, 14, 11, 13]
+
+clock_tick 24
+replace count 31
+Removed page 11 and inserted page 4 in frame 0
+Removed page 6 and inserted page 7 in frame 4
+Removed page 4 and inserted page 11 in frame 0
+Removed page 13 and inserted page 14 in frame 7
+page table: [0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0]
+frame containing pages: [11, 6, 13, 15, 7, 14, 11, 14]
+
+clock_tick 25
+replace count 35
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [11, 6, 13, 15, 7, 14, 11, 14]
+
+clock_tick 26
+replace count 35
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [11, 6, 13, 15, 7, 14, 11, 14]
+
+clock_tick 27
+replace count 35
+page table: [0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0]
+frame containing pages: [11, 6, 13, 15, 7, 14, 11, 14]
+
+clock_tick 28
+replace count 35
+page table: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+frame containing pages: [11, 6, 13, 15, 7, 14, 11, 14]
+
+clock_tick 29
+replace count 35
+page table: [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0]
+frame containing pages: [11, 6, 13, 15, 7, 14, 11, 14]
+
+clock_tick 30
+replace count 35
+page table: [0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0]
+frame containing pages: [11, 6, 13, 15, 7, 14, 11, 14]
+
+clock_tick 31
+replace count 35
+Removed page 11 and inserted page 1 in frame 0
+Removed page 11 and inserted page 4 in frame 6
+Removed page 6 and inserted page 9 in frame 1
+page table: [0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0]
+frame containing pages: [1, 9, 13, 15, 7, 14, 4, 14]
+
+clock_tick 32
+replace count 38
+Removed page 1 and inserted page 11 in frame 0
+page table: [0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+frame containing pages: [11, 9, 13, 15, 7, 14, 4, 14]
+
+clock_tick 33
+replace count 39
+Removed page 7 and inserted page 3 in frame 4
+Removed page 15 and inserted page 5 in frame 3
+Removed page 3 and inserted page 11 in frame 4
+page table: [0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0]
+frame containing pages: [11, 9, 13, 5, 11, 14, 4, 14]
+
+clock_tick 34
+replace count 42
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [11, 9, 13, 5, 11, 14, 4, 14]
+
+clock_tick 35
+replace count 42
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [11, 9, 13, 5, 11, 14, 4, 14]
+
+clock_tick 36
+replace count 42
+page table: [1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]
+frame containing pages: [11, 9, 13, 5, 11, 14, 4, 14]
+
+clock_tick 37
+replace count 42
+Removed page 14 and inserted page 0 in frame 5
+Removed page 11 and inserted page 5 in frame 0
+Removed page 0 and inserted page 7 in frame 5
+page table: [1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1]
+frame containing pages: [5, 9, 13, 5, 11, 7, 4, 14]
+
+clock_tick 38
+replace count 45
+Removed page 5 and inserted page 3 in frame 0
+Removed page 14 and inserted page 5 in frame 7
+Removed page 7 and inserted page 10 in frame 5
+Removed page 5 and inserted page 13 in frame 3
+Removed page 3 and inserted page 15 in frame 0
+page table: [0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+frame containing pages: [15, 9, 13, 13, 11, 10, 4, 5]
+
+clock_tick 39
+replace count 50
+Removed page 11 and inserted page 5 in frame 4
+Removed page 10 and inserted page 14 in frame 5
+Removed page 5 and inserted page 15 in frame 4
+page table: [0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1]
+frame containing pages: [15, 9, 13, 13, 15, 14, 4, 5]
+
+clock_tick 40
+replace count 53
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [15, 9, 13, 13, 15, 14, 4, 5]
+
+clock_tick 41
+replace count 53
+page table: [0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0]
+frame containing pages: [15, 9, 13, 13, 15, 14, 4, 5]
+
+clock_tick 42
+replace count 53
+Removed page 15 and inserted page 2 in frame 0
+Removed page 13 and inserted page 6 in frame 2
+Removed page 2 and inserted page 8 in frame 0
+page table: [0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0]
+frame containing pages: [8, 9, 6, 13, 15, 14, 4, 5]
+
+clock_tick 43
+replace count 56
+Removed page 4 and inserted page 6 in frame 6
+page table: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [8, 9, 6, 13, 15, 14, 6, 5]
+
+clock_tick 44
+replace count 57
+page table: [1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+frame containing pages: [8, 9, 6, 13, 15, 14, 6, 5]
+
+clock_tick 45
+replace count 57
+Removed page 6 and inserted page 3 in frame 6
+page table: [0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+frame containing pages: [8, 9, 6, 13, 15, 14, 3, 5]
+
+clock_tick 46
+replace count 58
+Removed page 13 and inserted page 4 in frame 3
+Removed page 3 and inserted page 13 in frame 6
+page table: [1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+frame containing pages: [8, 9, 6, 4, 15, 14, 13, 5]
+
+clock_tick 47
+replace count 60
+page table: [0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0]
+frame containing pages: [8, 9, 6, 4, 15, 14, 13, 5]
+
+clock_tick 48
+replace count 60
+Removed page 15 and inserted page 7 in frame 4
+Removed page 5 and inserted page 10 in frame 7
+page table: [0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0]
+frame containing pages: [8, 9, 6, 4, 7, 14, 13, 10]
+
+clock_tick 49
+replace count 62
+page table: [0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0]
+frame containing pages: [8, 9, 6, 4, 7, 14, 13, 10]
+
+clock_tick 50
+replace count 62
+Removed page 7 and inserted page 6 in frame 4
+Removed page 8 and inserted page 9 in frame 0
+page table: [0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1]
+frame containing pages: [9, 9, 6, 4, 6, 14, 13, 10]
+
+clock_tick 51
+replace count 64
+page table: [0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0]
+frame containing pages: [9, 9, 6, 4, 6, 14, 13, 10]
+
+clock_tick 52
+replace count 64
+Removed page 13 and inserted page 4 in frame 6
+Removed page 6 and inserted page 5 in frame 4
+Removed page 4 and inserted page 11 in frame 6
+page table: [0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0]
+frame containing pages: [9, 9, 6, 4, 5, 14, 11, 10]
+
+clock_tick 53
+replace count 67
+Removed page 14 and inserted page 4 in frame 5
+page table: [0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [9, 9, 6, 4, 5, 4, 11, 10]
+
+clock_tick 54
+replace count 68
+Removed page 5 and inserted page 1 in frame 4
+Removed page 9 and inserted page 4 in frame 0
+Removed page 9 and inserted page 7 in frame 1
+page table: [1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0]
+frame containing pages: [4, 7, 6, 4, 1, 4, 11, 10]
+
+clock_tick 55
+replace count 71
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [4, 7, 6, 4, 1, 4, 11, 10]
+
+clock_tick 56
+replace count 71
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [4, 7, 6, 4, 1, 4, 11, 10]
+
+clock_tick 57
+replace count 71
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [4, 7, 6, 4, 1, 4, 11, 10]
+
+clock_tick 58
+replace count 71
+page table: [1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [4, 7, 6, 4, 1, 4, 11, 10]
+
+clock_tick 59
+replace count 71
+Removed page 1 and inserted page 0 in frame 4
+Removed page 10 and inserted page 4 in frame 7
+page table: [1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0]
+frame containing pages: [4, 7, 6, 4, 0, 4, 11, 4]
+
+clock_tick 60
+replace count 73
+Removed page 0 and inserted page 4 in frame 4
+page table: [0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1]
+frame containing pages: [4, 7, 6, 4, 4, 4, 11, 4]
+
+clock_tick 61
+replace count 74
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [4, 7, 6, 4, 4, 4, 11, 4]
+
+clock_tick 62
+replace count 74
+page table: [1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [4, 7, 6, 4, 4, 4, 11, 4]
+
+clock_tick 63
+replace count 74
+page table: [0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [4, 7, 6, 4, 4, 4, 11, 4]
+
+clock_tick 64
+replace count 74
+Removed page 4 and inserted page 5 in frame 0
+page table: [1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1]
+frame containing pages: [5, 7, 6, 4, 4, 4, 11, 4]
+
+clock_tick 65
+replace count 75
+Removed page 4 and inserted page 0 in frame 5
+page table: [1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0]
+frame containing pages: [5, 7, 6, 4, 4, 0, 11, 4]
+
+clock_tick 66
+replace count 76
+page table: [0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [5, 7, 6, 4, 4, 0, 11, 4]
+
+clock_tick 67
+replace count 76
+page table: [0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1]
+frame containing pages: [5, 7, 6, 4, 4, 0, 11, 4]
+
+clock_tick 68
+replace count 76
+Removed page 5 and inserted page 3 in frame 0
+Removed page 4 and inserted page 10 in frame 3
+Removed page 3 and inserted page 11 in frame 0
+page table: [0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0]
+frame containing pages: [11, 7, 6, 10, 4, 0, 11, 4]
+
+clock_tick 69
+replace count 79
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [11, 7, 6, 10, 4, 0, 11, 4]
+
+clock_tick 70
+replace count 79
+page table: [1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0]
+frame containing pages: [11, 7, 6, 10, 4, 0, 11, 4]
+
+clock_tick 71
+replace count 79
+Removed page 4 and inserted page 0 in frame 7
+Removed page 4 and inserted page 2 in frame 4
+page table: [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [11, 7, 6, 10, 2, 0, 11, 0]
+
+clock_tick 72
+replace count 81
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [11, 7, 6, 10, 2, 0, 11, 0]
+
+clock_tick 73
+replace count 81
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0]
+frame containing pages: [11, 7, 6, 10, 2, 0, 11, 0]
+
+clock_tick 74
+replace count 81
+Removed page 6 and inserted page 9 in frame 2
+Removed page 0 and inserted page 11 in frame 7
+page table: [0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0]
+frame containing pages: [11, 7, 9, 10, 2, 0, 11, 11]
+
+clock_tick 75
+replace count 83
+page table: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [11, 7, 9, 10, 2, 0, 11, 11]
+
+clock_tick 76
+replace count 83
+page table: [0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1]
+frame containing pages: [11, 7, 9, 10, 2, 0, 11, 11]
+
+clock_tick 77
+replace count 83
+Removed page 9 and inserted page 1 in frame 2
+page table: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [11, 7, 1, 10, 2, 0, 11, 11]
+
+clock_tick 78
+replace count 84
+page table: [0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0]
+frame containing pages: [11, 7, 1, 10, 2, 0, 11, 11]
+
+clock_tick 79
+replace count 84
+Removed page 7 and inserted page 11 in frame 1
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+frame containing pages: [11, 11, 1, 10, 2, 0, 11, 11]
+
+clock_tick 80
+replace count 85
+Removed page 1 and inserted page 11 in frame 2
+page table: [0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0]
+frame containing pages: [11, 11, 11, 10, 2, 0, 11, 11]
+
+clock_tick 81
+replace count 86
+Removed page 11 and inserted page 6 in frame 0
+Removed page 6 and inserted page 8 in frame 0
+page table: [1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [8, 11, 11, 10, 2, 0, 11, 11]
+
+clock_tick 82
+replace count 88
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [8, 11, 11, 10, 2, 0, 11, 11]
+
+clock_tick 83
+replace count 88
+page table: [0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1]
+frame containing pages: [8, 11, 11, 10, 2, 0, 11, 11]
+
+clock_tick 84
+replace count 88
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [8, 11, 11, 10, 2, 0, 11, 11]
+
+clock_tick 85
+replace count 88
+page table: [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+frame containing pages: [8, 11, 11, 10, 2, 0, 11, 11]
+
+clock_tick 86
+replace count 88
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [8, 11, 11, 10, 2, 0, 11, 11]
+
+clock_tick 87
+replace count 88
+page table: [0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1]
+frame containing pages: [8, 11, 11, 10, 2, 0, 11, 11]
+
+clock_tick 88
+replace count 88
+Removed page 8 and inserted page 4 in frame 0
+Removed page 2 and inserted page 6 in frame 4
+Removed page 4 and inserted page 11 in frame 0
+Removed page 11 and inserted page 13 in frame 0
+Removed page 13 and inserted page 14 in frame 0
+page table: [0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0]
+frame containing pages: [14, 11, 11, 10, 6, 0, 11, 11]
+
+clock_tick 89
+replace count 93
+Removed page 14 and inserted page 11 in frame 0
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+frame containing pages: [11, 11, 11, 10, 6, 0, 11, 11]
+
+clock_tick 90
+replace count 94
+page table: [1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+frame containing pages: [11, 11, 11, 10, 6, 0, 11, 11]
+
+clock_tick 91
+replace count 94
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+frame containing pages: [11, 11, 11, 10, 6, 0, 11, 11]
+
+clock_tick 92
+replace count 94
+Removed page 11 and inserted page 11 in frame 0
+page table: [1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1]
+frame containing pages: [11, 11, 11, 10, 6, 0, 11, 11]
+
+clock_tick 93
+replace count 95
+Removed page 11 and inserted page 2 in frame 0
+Removed page 2 and inserted page 10 in frame 0
+page table: [0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0]
+frame containing pages: [10, 11, 11, 10, 6, 0, 11, 11]
+
+clock_tick 94
+replace count 97
+Removed page 11 and inserted page 2 in frame 6
+Removed page 11 and inserted page 6 in frame 2
+page table: [0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+frame containing pages: [10, 11, 6, 10, 6, 0, 2, 11]
+
+clock_tick 95
+replace count 99
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [10, 11, 6, 10, 6, 0, 2, 11]
+
+clock_tick 96
+replace count 99
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [10, 11, 6, 10, 6, 0, 2, 11]
+
+clock_tick 97
+replace count 99
+page table: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0]
+frame containing pages: [10, 11, 6, 10, 6, 0, 2, 11]
+
+clock_tick 98
+replace count 99
+Removed page 2 and inserted page 10 in frame 6
+Removed page 10 and inserted page 12 in frame 0
+page table: [1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0]
+frame containing pages: [12, 11, 6, 10, 6, 0, 10, 11]
+
+clock_tick 99
+replace count 101
+Removed page 12 and inserted page 1 in frame 0
+Removed page 11 and inserted page 3 in frame 1
+Removed page 1 and inserted page 10 in frame 0
+Removed page 10 and inserted page 12 in frame 0
+page table: [0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0]
+frame containing pages: [12, 3, 6, 10, 6, 0, 10, 11]
+
+clock_tick 100
+replace count 105
+Removed page 12 and inserted page 1 in frame 0
+Removed page 3 and inserted page 10 in frame 1
+page table: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+frame containing pages: [1, 10, 6, 10, 6, 0, 10, 11]
+
+clock_tick 101
+replace count 107
+page table: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+frame containing pages: [1, 10, 6, 10, 6, 0, 10, 11]
+
+clock_tick 102
+replace count 107
+page table: [0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [1, 10, 6, 10, 6, 0, 10, 11]
+
+clock_tick 103
+replace count 107
+page table: [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0]
+frame containing pages: [1, 10, 6, 10, 6, 0, 10, 11]
+
+clock_tick 104
+replace count 107
+Removed page 1 and inserted page 11 in frame 0
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0]
+frame containing pages: [11, 10, 6, 10, 6, 0, 10, 11]
+
+clock_tick 105
+replace count 108
+Removed page 10 and inserted page 8 in frame 6
+Removed page 11 and inserted page 11 in frame 0
+page table: [1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0]
+frame containing pages: [11, 10, 6, 10, 6, 0, 8, 11]
+
+clock_tick 106
+replace count 110
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [11, 10, 6, 10, 6, 0, 8, 11]
+
+clock_tick 107
+replace count 110
+page table: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+frame containing pages: [11, 10, 6, 10, 6, 0, 8, 11]
+
+clock_tick 108
+replace count 110
+Removed page 11 and inserted page 2 in frame 0
+page table: [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [2, 10, 6, 10, 6, 0, 8, 11]
+
+clock_tick 109
+replace count 111
+Removed page 6 and inserted page 2 in frame 2
+page table: [0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0]
+frame containing pages: [2, 10, 2, 10, 6, 0, 8, 11]
+
+clock_tick 110
+replace count 112
+Removed page 8 and inserted page 2 in frame 6
+Removed page 2 and inserted page 13 in frame 0
+page table: [0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0]
+frame containing pages: [13, 10, 2, 10, 6, 0, 2, 11]
+
+clock_tick 111
+replace count 114
+Removed page 2 and inserted page 5 in frame 2
+Removed page 0 and inserted page 7 in frame 5
+Removed page 2 and inserted page 8 in frame 6
+page table: [0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0]
+frame containing pages: [13, 10, 5, 10, 6, 7, 8, 11]
+
+clock_tick 112
+replace count 117
+Removed page 11 and inserted page 5 in frame 7
+Removed page 13 and inserted page 7 in frame 0
+page table: [0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [7, 10, 5, 10, 6, 7, 8, 5]
+
+clock_tick 113
+replace count 119
+Removed page 8 and inserted page 1 in frame 6
+Removed page 10 and inserted page 5 in frame 1
+page table: [0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0]
+frame containing pages: [7, 5, 5, 10, 6, 7, 1, 5]
+
+clock_tick 114
+replace count 121
+Removed page 7 and inserted page 1 in frame 0
+Removed page 7 and inserted page 5 in frame 5
+page table: [0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+frame containing pages: [1, 5, 5, 10, 6, 5, 1, 5]
+
+clock_tick 115
+replace count 123
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [1, 5, 5, 10, 6, 5, 1, 5]
+
+clock_tick 116
+replace count 123
+page table: [0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0]
+frame containing pages: [1, 5, 5, 10, 6, 5, 1, 5]
+
+clock_tick 117
+replace count 123
+page table: [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+frame containing pages: [1, 5, 5, 10, 6, 5, 1, 5]
+
+clock_tick 118
+replace count 123
+page table: [0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0]
+frame containing pages: [1, 5, 5, 10, 6, 5, 1, 5]
+
+clock_tick 119
+replace count 123
+Removed page 5 and inserted page 6 in frame 1
+Removed page 1 and inserted page 7 in frame 0
+Removed page 5 and inserted page 11 in frame 7
+page table: [0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1]
+frame containing pages: [7, 6, 5, 10, 6, 5, 1, 11]
+
+clock_tick 120
+replace count 126
+Removed page 7 and inserted page 6 in frame 0
+page table: [0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [6, 6, 5, 10, 6, 5, 1, 11]
+
+clock_tick 121
+replace count 127
+Removed page 1 and inserted page 6 in frame 6
+page table: [0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+frame containing pages: [6, 6, 5, 10, 6, 5, 6, 11]
+
+clock_tick 122
+replace count 128
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0]
+frame containing pages: [6, 6, 5, 10, 6, 5, 6, 11]
+
+clock_tick 123
+replace count 128
+Removed page 6 and inserted page 11 in frame 0
+page table: [0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0]
+frame containing pages: [11, 6, 5, 10, 6, 5, 6, 11]
+
+clock_tick 124
+replace count 129
+Removed page 6 and inserted page 1 in frame 6
+Removed page 6 and inserted page 5 in frame 1
+Removed page 1 and inserted page 9 in frame 6
+page table: [0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+frame containing pages: [11, 5, 5, 10, 6, 5, 9, 11]
+
+clock_tick 125
+replace count 132
+page table: [0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1]
+frame containing pages: [11, 5, 5, 10, 6, 5, 9, 11]
+
+clock_tick 126
+replace count 132
+Removed page 11 and inserted page 4 in frame 0
+page table: [0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0]
+frame containing pages: [4, 5, 5, 10, 6, 5, 9, 11]
+
+clock_tick 127
+replace count 133
+page table: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [4, 5, 5, 10, 6, 5, 9, 11]
+
+clock_tick 128
+replace count 133
+page table: [0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0]
+frame containing pages: [4, 5, 5, 10, 6, 5, 9, 11]
+
+clock_tick 129
+replace count 133
+Removed page 6 and inserted page 5 in frame 4
+Removed page 4 and inserted page 12 in frame 0
+page table: [1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1]
+frame containing pages: [12, 5, 5, 10, 5, 5, 9, 11]
+
+clock_tick 130
+replace count 135
+Removed page 5 and inserted page 12 in frame 5
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+frame containing pages: [12, 5, 5, 10, 5, 12, 9, 11]
+
+clock_tick 131
+replace count 136
+page table: [1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0]
+frame containing pages: [12, 5, 5, 10, 5, 12, 9, 11]
+
+clock_tick 132
+replace count 136
+Removed page 12 and inserted page 0 in frame 0
+Removed page 0 and inserted page 1 in frame 0
+Removed page 5 and inserted page 4 in frame 1
+page table: [1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+frame containing pages: [1, 4, 5, 10, 5, 12, 9, 11]
+
+clock_tick 133
+replace count 139
+Removed page 1 and inserted page 4 in frame 0
+Removed page 5 and inserted page 13 in frame 4
+page table: [0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0]
+frame containing pages: [4, 4, 5, 10, 13, 12, 9, 11]
+
+clock_tick 134
+replace count 141
+Removed page 4 and inserted page 5 in frame 0
+Removed page 12 and inserted page 7 in frame 5
+Removed page 5 and inserted page 10 in frame 0
+Removed page 11 and inserted page 13 in frame 7
+page table: [0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0]
+frame containing pages: [10, 4, 5, 10, 13, 7, 9, 13]
+
+clock_tick 135
+replace count 145
+Removed page 7 and inserted page 1 in frame 5
+Removed page 4 and inserted page 5 in frame 1
+Removed page 1 and inserted page 7 in frame 5
+Removed page 10 and inserted page 13 in frame 0
+page table: [0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0]
+frame containing pages: [13, 5, 5, 10, 13, 7, 9, 13]
+
+clock_tick 136
+replace count 149
+Removed page 13 and inserted page 1 in frame 0
+Removed page 1 and inserted page 5 in frame 0
+Removed page 5 and inserted page 7 in frame 0
+page table: [1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0]
+frame containing pages: [7, 5, 5, 10, 13, 7, 9, 13]
+
+clock_tick 137
+replace count 152
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0]
+frame containing pages: [7, 5, 5, 10, 13, 7, 9, 13]
+
+clock_tick 138
+replace count 152
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [7, 5, 5, 10, 13, 7, 9, 13]
+
+clock_tick 139
+replace count 152
+page table: [0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0]
+frame containing pages: [7, 5, 5, 10, 13, 7, 9, 13]
+
+clock_tick 140
+replace count 152
+Removed page 7 and inserted page 3 in frame 0
+Removed page 10 and inserted page 8 in frame 3
+Removed page 3 and inserted page 14 in frame 0
+page table: [0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1]
+frame containing pages: [14, 5, 5, 8, 13, 7, 9, 13]
+
+clock_tick 141
+replace count 155
+Removed page 7 and inserted page 5 in frame 5
+page table: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+frame containing pages: [14, 5, 5, 8, 13, 5, 9, 13]
+
+clock_tick 142
+replace count 156
+page table: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [14, 5, 5, 8, 13, 5, 9, 13]
+
+clock_tick 143
+replace count 156
+Removed page 5 and inserted page 6 in frame 5
+page table: [0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+frame containing pages: [14, 5, 5, 8, 13, 6, 9, 13]
+
+clock_tick 144
+replace count 157
+Removed page 9 and inserted page 15 in frame 6
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1]
+frame containing pages: [14, 5, 5, 8, 13, 6, 15, 13]
+
+clock_tick 145
+replace count 158
+page table: [0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0]
+frame containing pages: [14, 5, 5, 8, 13, 6, 15, 13]
+
+clock_tick 146
+replace count 158
+page table: [0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0]
+frame containing pages: [14, 5, 5, 8, 13, 6, 15, 13]
+
+clock_tick 147
+replace count 158
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [14, 5, 5, 8, 13, 6, 15, 13]
+
+clock_tick 148
+replace count 158
+page table: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0]
+frame containing pages: [14, 5, 5, 8, 13, 6, 15, 13]
+
+clock_tick 149
+replace count 158
+Removed page 6 and inserted page 1 in frame 5
+Removed page 5 and inserted page 14 in frame 1
+page table: [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]
+frame containing pages: [14, 14, 5, 8, 13, 1, 15, 13]
+
+clock_tick 150
+replace count 160
+page table: [0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [14, 14, 5, 8, 13, 1, 15, 13]
+
+clock_tick 151
+replace count 160
+Removed page 1 and inserted page 5 in frame 5
+Removed page 5 and inserted page 6 in frame 5
+page table: [1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0]
+frame containing pages: [14, 14, 5, 8, 13, 6, 15, 13]
+
+clock_tick 152
+replace count 162
+Removed page 15 and inserted page 0 in frame 6
+Removed page 6 and inserted page 14 in frame 5
+page table: [1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1]
+frame containing pages: [14, 14, 5, 8, 13, 14, 0, 13]
+
+clock_tick 153
+replace count 164
+page table: [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [14, 14, 5, 8, 13, 14, 0, 13]
+
+clock_tick 154
+replace count 164
+Removed page 14 and inserted page 1 in frame 0
+page table: [0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+frame containing pages: [1, 14, 5, 8, 13, 14, 0, 13]
+
+clock_tick 155
+replace count 165
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [1, 14, 5, 8, 13, 14, 0, 13]
+
+clock_tick 156
+replace count 165
+page table: [1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1]
+frame containing pages: [1, 14, 5, 8, 13, 14, 0, 13]
+
+clock_tick 157
+replace count 165
+Removed page 1 and inserted page 0 in frame 0
+Removed page 0 and inserted page 3 in frame 0
+Removed page 8 and inserted page 5 in frame 3
+Removed page 3 and inserted page 9 in frame 0
+page table: [1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0]
+frame containing pages: [9, 14, 5, 5, 13, 14, 0, 13]
+
+clock_tick 158
+replace count 169
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [9, 14, 5, 5, 13, 14, 0, 13]
+
+clock_tick 159
+replace count 169
+page table: [0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1]
+frame containing pages: [9, 14, 5, 5, 13, 14, 0, 13]
+
+clock_tick 160
+replace count 169
+Removed page 14 and inserted page 8 in frame 5
+page table: [0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0]
+frame containing pages: [9, 14, 5, 5, 13, 8, 0, 13]
+
+clock_tick 161
+replace count 170
+Removed page 9 and inserted page 5 in frame 0
+Removed page 5 and inserted page 6 in frame 0
+Removed page 0 and inserted page 7 in frame 6
+Removed page 6 and inserted page 9 in frame 0
+Removed page 8 and inserted page 13 in frame 5
+page table: [0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0]
+frame containing pages: [9, 14, 5, 5, 13, 13, 7, 13]
+
+clock_tick 162
+replace count 175
+Removed page 9 and inserted page 1 in frame 0
+Removed page 14 and inserted page 9 in frame 1
+page table: [1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+frame containing pages: [1, 9, 5, 5, 13, 13, 7, 13]
+
+clock_tick 163
+replace count 177
+page table: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+frame containing pages: [1, 9, 5, 5, 13, 13, 7, 13]
+
+clock_tick 164
+replace count 177
